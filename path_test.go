@@ -5,9 +5,9 @@
 package os_test
 
 import (
-	"internal/testenv"
-	"io/ioutil"
-	. "os"
+	"github.com/rasa/os/internal/testenv" /* "internal/testenv" */
+	"github.com/rasa/os/io/ioutil" /* "io/ioutil" */
+	. "github.com/rasa/os" /* . "os" */
 	"path/filepath"
 	"runtime"
 	"syscall"

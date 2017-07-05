@@ -13,8 +13,8 @@ package testenv
 import (
 	"errors"
 	"flag"
-	"os"
-	"os/exec"
+	"github.com/rasa/os" /* "os" */	
+	"github.com/rasa/os/exec" /* "os/exec" */
 	"path/filepath"
 	"runtime"
 	"strconv"

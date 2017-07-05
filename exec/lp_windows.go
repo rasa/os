@@ -6,7 +6,7 @@ package exec
 
 import (
 	"errors"
-	"os"
+	"github.com/rasa/os" /* "os" */
 	"path/filepath"
 	"strings"
 )

@@ -5,8 +5,8 @@
 package testenv
 
 import (
-	"io/ioutil"
-	"os"
+	"github.com/rasa/os/io/ioutil" /* "io/ioutil" */
+	"github.com/rasa/os" /* "os" */	
 	"path/filepath"
 	"sync"
 	"syscall"

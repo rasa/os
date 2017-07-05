@@ -7,7 +7,7 @@ package os_test
 import (
 	"fmt"
 	"log"
-	"os"
+	"github.com/rasa/os" /* "os" */
 	"time"
 )
 

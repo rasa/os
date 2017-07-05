@@ -6,9 +6,9 @@ package os_test
 
 import (
 	"fmt"
-	"internal/testenv"
-	"os"
-	osexec "os/exec"
+	"github.com/rasa/os/internal/testenv" /* "internal/testenv" */
+	"github.com/rasa/os" /* "os" */	
+	osexec "github.com/rasa/os/exec" /* osexec "os/exec" */
 	"path/filepath"
 	"runtime"
 	"testing"

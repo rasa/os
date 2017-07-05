@@ -8,7 +8,7 @@ package os_test
 
 import (
 	"fmt"
-	. "os"
+	. "github.com/rasa/os" /* . "os" */	
 	"testing"
 )
 

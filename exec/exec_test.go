@@ -14,13 +14,13 @@ import (
 	"fmt"
 	"internal/testenv"
 	"io"
-	"io/ioutil"
+	"github.com/rasa/os/io/ioutil" /* "io/ioutil" */
 	"log"
 	"net"
 	"net/http"
 	"net/http/httptest"
-	"os"
-	"os/exec"
+	"github.com/rasa/os" /* "os" */	
+	"github.com/rasa/os/exec" /* "os/exec" */
 	"path/filepath"
 	"runtime"
 	"strconv"

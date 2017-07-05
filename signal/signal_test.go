@@ -8,9 +8,9 @@ package signal
 
 import (
 	"flag"
-	"io/ioutil"
-	"os"
-	"os/exec"
+	"github.com/rasa/os/io/ioutil" /* "io/ioutil" */
+	"github.com/rasa/os" /* "os" */	
+	"github.com/rasa/os/exec" /* "os/exec" */	
 	"runtime"
 	"strconv"
 	"syscall"

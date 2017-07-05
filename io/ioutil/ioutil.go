@@ -8,7 +8,7 @@ package ioutil
 import (
 	"bytes"
 	"io"
-	"os"
+	"github.com/rasa/os" /* "os" */
 	"sort"
 	"sync"
 )

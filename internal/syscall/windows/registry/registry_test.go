@@ -14,7 +14,7 @@ import (
 	"testing"
 	"unsafe"
 
-	"internal/syscall/windows/registry"
+	"github.com/rasa/os/internal/syscall/windows/registry" /* "internal/syscall/windows/registry" */
 )
 
 func randKeyName(prefix string) string {

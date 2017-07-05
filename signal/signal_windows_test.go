@@ -6,10 +6,10 @@ package signal
 
 import (
 	"bytes"
-	"internal/testenv"
-	"io/ioutil"
-	"os"
-	"os/exec"
+	"github.com/rasa/os/internal/testenv" /* "internal/testenv" */
+	"github.com/rasa/os/io/ioutil" /* "io/ioutil" */
+	"github.com/rasa/os" /* "os" */
+	"github.com/rasa/os/exec" /* "os/exec" */
 	"path/filepath"
 	"syscall"
 	"testing"

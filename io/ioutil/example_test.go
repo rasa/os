@@ -6,9 +6,9 @@ package ioutil_test
 
 import (
 	"fmt"
-	"io/ioutil"
+	"github.com/rasa/os/io/ioutil" /* "io/ioutil" */
 	"log"
-	"os"
+	"github.com/rasa/os" /* "os" */
 	"path/filepath"
 	"strings"
 )

@@ -3,7 +3,7 @@
 package windows
 
 import (
-	"internal/syscall/windows/sysdll"
+	"github.com/rasa/os/internal/syscall/windows/sysdll" /* "internal/syscall/windows/sysdll" */
 	"syscall"
 	"unsafe"
 )

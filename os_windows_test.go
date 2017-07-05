@@ -6,12 +6,12 @@ package os_test
 
 import (
 	"fmt"
-	"internal/syscall/windows"
-	"internal/testenv"
+	"github.com/rasa/os/internal/syscall/windows" /* "internal/syscall/windows" */
+	"github.com/rasa/os/internal/testenv" /* "internal/testenv" */
 	"io"
-	"io/ioutil"
-	"os"
-	osexec "os/exec"
+	"github.com/rasa/os/io/ioutil" /* "io/ioutil" */
+	"github.com/rasa/os" /* "os" */
+	osexec "github.com/rasa/os/exec" /* osexec "os/exec" */
 	"path/filepath"
 	"reflect"
 	"runtime"

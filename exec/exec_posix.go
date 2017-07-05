@@ -7,7 +7,7 @@
 package exec
 
 import (
-	"os"
+	"github.com/rasa/os" /* "os" */
 	"syscall"
 )
 

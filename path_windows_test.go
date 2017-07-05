@@ -5,7 +5,7 @@
 package os_test
 
 import (
-	"os"
+	"github.com/rasa/os" /* "os" */
 	"strings"
 	"testing"
 )

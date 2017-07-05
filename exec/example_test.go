@@ -10,9 +10,9 @@ import (
 	"encoding/json"
 	"fmt"
 	"io"
-	"io/ioutil"
+	"github.com/rasa/os/io/ioutil" /* "io/ioutil" */
 	"log"
-	"os/exec"
+	"github.com/rasa/os/exec" /* "os/exec" */
 	"strings"
 	"time"
 )

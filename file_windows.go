@@ -5,7 +5,7 @@
 package os
 
 import (
-	"internal/syscall/windows"
+	"github.com/rasa/os/internal/syscall/windows" /* "internal/syscall/windows" */
 	"io"
 	"runtime"
 	"sync"

@@ -6,8 +6,8 @@ package signal_test
 
 import (
 	"fmt"
-	"os"
-	"os/signal"
+	"github.com/rasa/os" /* "os" */
+	"github.com/rasa/os/signal" /* "os/signal" */
 )
 
 func ExampleNotify() {

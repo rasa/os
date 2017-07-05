@@ -22,7 +22,7 @@ func init() {
 	Args = runtime_args()
 }
 
-func runtime_args() []string // in package runtime
+func runtime_args() []string {return nil} // in package runtime
 
 // Getuid returns the numeric user id of the caller.
 func Getuid() int { return syscall.Getuid() }
@@ -54,4 +54,4 @@ func Exit(code int) {
 	syscall.Exit(code)
 }
 
-func runtime_beforeExit() // implemented in runtime
+func runtime_beforeExit() {} // implemented in runtime

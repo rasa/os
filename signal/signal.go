@@ -5,7 +5,7 @@
 package signal
 
 import (
-	"os"
+	"github.com/rasa/os" /* "os" */
 	"sync"
 )
 

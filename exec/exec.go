@@ -16,7 +16,7 @@ import (
 	"context"
 	"errors"
 	"io"
-	"os"
+	"github.com/rasa/os" /* "os" */
 	"path/filepath"
 	"runtime"
 	"strconv"

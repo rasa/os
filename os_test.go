@@ -9,11 +9,11 @@ import (
 	"errors"
 	"flag"
 	"fmt"
-	"internal/testenv"
+	"github.com/rasa/os/internal/testenv" /* "internal/testenv" */
 	"io"
-	"io/ioutil"
-	. "os"
-	osexec "os/exec"
+	"github.com/rasa/os/io/ioutil" /* "io/ioutil" */
+	. "github.com/rasa/os" /* . "os" */	
+	osexec "github.com/rasa/os/exec" /* osexec "os/exec" */
 	"path/filepath"
 	"reflect"
 	"runtime"
@@ -26,14 +26,14 @@ import (
 )
 
 var dot = []string{
-	"dir_unix.go",
+	/* "dir_unix.go", */
 	"env.go",
 	"error.go",
 	"file.go",
 	"os_test.go",
 	"types.go",
-	"stat_darwin.go",
-	"stat_linux.go",
+	/* "stat_darwin.go", */
+	/* "stat_linux.go", */
 }
 
 type sysDir struct {
